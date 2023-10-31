@@ -101,6 +101,7 @@ body {
     border-radius: 20px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    
     display: flex;
     flex-wrap: wrap;
 }
@@ -126,10 +127,9 @@ body {
 
     width: 86px;
     height: 24px;
-    margin-left: 15px;
-    margin-right: 5px;
-    padding-top: 5px;
 
+    padding-top: 5px;
+    margin-left: 8px;
     background-color: #CB92B1;
     border-radius: 30px;
 }
