@@ -18,14 +18,15 @@
 #desktop{
     width: 1440px;
     height: 900px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--page-background);
+    margin: auto;
 }
 
 body, html {
     font-family: var(--font1);
+    background-color: gray;
 }
 
 header {
@@ -56,6 +57,7 @@ header p#titulo {
     font-weight: 400;
 }
 
+/* Caixa do Free */
 
 #free {
     width: 355px;
@@ -86,7 +88,7 @@ header p#titulo {
     font-weight: 400;
 }
 
-#free p {
+#free p.subtitulo {
     color: var(--gray);
     font-size: 14px;
     padding-left: 31px;
@@ -104,28 +106,153 @@ header p#titulo {
 
 .check {
     display: flex;
-    margin-left: 31px;
     color: green;
     font-size: 18px;
+    padding-left: 31px;
 }
 
 .check > p {
     color: var(--gray);
     font-weight: 600;
     font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#free p#botaofree {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 296px;
+    height: 49px;
+
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p#botaofree  a {
+    width: 248px;
+    text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue);
     
 }
+
+/* Caixa do básico */
 
 #basico {
     width: 355px;
     height: 470px;
 
     margin: 0 20px;
+    
 
     border-radius: 8px;
     background-color: var(--page-background);
     box-shadow: 0px 1px 2px 0px var(--gray);
 }
+
+#header-plano-basico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    border-radius: 8px 8px 0 0;
+
+    background-color: var(--yellow);
+}
+
+#header-plano-basico h3 {
+    font-size: 20px;
+    color: var(--blue);
+    
+    padding-left: 30px;
+}
+
+#header-plano-basico p {
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--page-background);
+    border-radius: 40px;
+    background-color: var(--blue);
+    padding: 8px 24px;
+}
+
+#basico h2 {
+    padding-left: 29px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#basico span {
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#basico p.subtitulo {
+    color: var(--gray);
+    font-size: 14px;
+    padding-left: 31px;
+    padding-right: 33px;
+    padding-bottom: 20px;
+}
+
+.divider {
+    width: 295px;
+    height: 1px;
+    border: 1px solid #EEE;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+.check {
+    display: flex;
+    color: green;
+    font-size: 18px;
+    padding-left: 31px;
+}
+
+.check > p {
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#basico p#botaobasico {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 296px;
+    height: 49px;
+
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+p#botaobasico  a {
+    width: 248px;
+    text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+/* Caixa do profissional */
 
 #profissional {
     width: 355px;
@@ -135,4 +262,77 @@ header p#titulo {
     box-shadow: 0px 1px 2px 0px var(--gray);
 
     margin-top: 10px;
+}
+
+#profissional h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#profissional h2 {
+    padding-left: 29px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#profissional span {
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#profissional p.subtitulo {
+    color: var(--gray);
+    font-size: 14px;
+    padding-left: 31px;
+    padding-right: 33px;
+    padding-bottom: 20px;
+}
+
+.divider {
+    width: 295px;
+    height: 1px;
+    border: 1px solid #EEE;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+.check {
+    display: flex;
+    color: green;
+    font-size: 18px;
+    padding-left: 31px;
+}
+
+.check > p {
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#profissional p#botaofree {
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 296px;
+    height: 49px;
+
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p#botaofree  a {
+    width: 248px;
+    text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue);
+    
 }
