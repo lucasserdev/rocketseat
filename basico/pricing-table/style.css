@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+
+    --font1: 'Open Sans', sans-serif;
+}
+
+#desktop{
+    width: 1440px;
+    height: 900px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--page-background);
+}
+
+body, html {
+    font-family: var(--font1);
+}
+
+header {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: var(--blue);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header h1 {
+    width: 553px;
+    font-size: 47px;
+    font-weight: 700;
+    margin: 100px 443px 20px 444px;
+    text-align: center;
+    color: #fff;
+}
+
+header p#titulo {
+    width: 553px;
+    margin: 0px 443px 65px 444px;
+
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+#free {
+    width: 355px;
+    height: 470px; 
+
+    border-radius: 8px;
+    background-color: var(--page-background);
+    box-shadow: 0px 1px 2px 0px var(--gray);
+
+    margin-top: 10px;
+}
+
+#free h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#free h2 {
+    padding-left: 29px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#free span {
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#free p {
+    color: var(--gray);
+    font-size: 14px;
+    padding-left: 31px;
+    padding-right: 33px;
+    padding-bottom: 20px;
+}
+
+.divider {
+    width: 295px;
+    height: 1px;
+    border: 1px solid #EEE;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+.check {
+    display: flex;
+    margin-left: 31px;
+    color: green;
+    font-size: 18px;
+}
+
+.check > p {
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+#basico {
+    width: 355px;
+    height: 470px;
+
+    margin: 0 20px;
+
+    border-radius: 8px;
+    background-color: var(--page-background);
+    box-shadow: 0px 1px 2px 0px var(--gray);
+}
+
+#profissional {
+    width: 355px;
+    height: 470px;
+    border-radius: 8px;
+    background-color: var(--page-background);
+    box-shadow: 0px 1px 2px 0px var(--gray);
+
+    margin-top: 10px;
+}
