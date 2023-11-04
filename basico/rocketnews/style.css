@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+
+    --font1: 'League Spartan', sans-serif;
+    --font2: 'Work Sans', sans-serif;
+}
+
+body {
+    background: var(--body-bg-color)
+    
+}
+
+#container {
+    width: 1551px;
+    height: 780px;
+    background: var(--body-bg-color) url(imagens/read_news.jpg) no-repeat top right/1175px 784px;
+    display: flex;
+    margin: auto;
+}
+
+main {
+    width: 1440px;
+    height: 780px;
+    display: flex;
+    
+}
+/* -------------- SECTION CARD --------------- */
+section#card {
+    width: 720px;
+    height: 784px;
+    
+    background-color: var(--body-bg-color);
+    
+}
+
+section#card > img {
+    width: 389px;
+    height: 94px;
+    
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 92px;
+}
+
+section#card > h3 {
+    margin-left: 30px;
+    margin-bottom: 8.56px;
+
+    color: var(--title-color);
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section#card > h4 {
+    margin-left: 30px;
+    margin-bottom: 9px;
+
+    color: var(--text-color);
+    font-family: var(--font1);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+section#card > p {
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+    color: var(--text-color);
+    font-family: var(--font1);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19.423px;
+}
+
+form {
+    margin-left: 36px;
+
+    width: 798px;
+    height: 84px;
+    
+}
+
+form > p > label {
+    margin-bottom: 17px;
+
+    color: var(--form-color);
+    font-family: var(--font1);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.423px;
+}
+
+div#email {
+    display: flex;
+    box-shadow: 1px 6px 15px 3px black;
+    background-color: #04D361;
+}
+
+div#email > p#msg input {
+    width: 750px;
+    height: 48px;
+    margin-left: 5px;
+    border: 0;
+}
+
+div#email > p#botao{
+    background-color: var(--bg-button-color);
+    padding: 8px 12px;
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+#link {
+    display: flex;
+    margin-left: 36px;
+    margin-top: 50px;
+    margin-right: 5px;
+    
+
+    color: var(--bg-button-color);
+    font-family: var(--font1);
+    font-weight: 700;
+    
+}
+
+#link p#link2 {
+    
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#arrow {
+    font-size: 24px;
+    margin-left: 5px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ------------ SECTION DA IMAGEM ------------- */
+section#bg-img {
+    width: 720px;
+    height: 780px;
+
+    
+}
+
+#apagar {
+    width: 111px;
+    background-color: var(--body-bg-color);
+}
