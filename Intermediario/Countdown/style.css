@@ -17,11 +17,8 @@
 }
 
 body {
-    background-color: black;
     display: flex;
     justify-content: center;
-    
-   
 }
 
 main {
@@ -33,7 +30,6 @@ main {
 
 header {
     height: 133px;
-    border: 1px solid black;
     background-image: url(images/top-image.svg);
 }
 
@@ -43,18 +39,83 @@ section {
     justify-content: space-around;
 }
 
-div#contador {
+/* ******************** PARTE DO CONTADOR ***** */
 
+div#contador {
+    width: 486px;
+    text-align: center;
 }
 
+#contador > h2 {
+    color: var(--purple);
+    font-family: var(--font);
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 3.78px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+div#deh {
+    display: flex;
+    justify-content: space-around;
+}
+
+span.deh {
+    color: var(--text-color);
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+div#count {
+    width: 494px;
+    height: 79px;
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#count h1 {
+    color: var(--black);
+    font-family: var(--font);
+    font-size: 72px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+p {
+   color: var(--text-color);
+   font-family: var(--font);
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400; 
+   margin-bottom: 31px;
+}
+
+input[type="button"] {
+    background-color: #6C63FF;
+    width: 160px;
+    height: 46px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--font);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+/* ********* PARTE DA IMAGEM ******************** */
 div#img {
     width: 607.01px;
     height: 388.997px;
     
 }
 
+
+/* ********************* O RODAPÉ ************************ */
 footer {
     height: 229px;
-    border: 1px solid blue;
     background-image: url(images/bottom-image.svg);
 }
