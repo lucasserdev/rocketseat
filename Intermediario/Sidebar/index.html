@@ -9,9 +9,9 @@
 <body>
     <main>
         <nav class="menu">
-            <div class="icon-menu">
+            <div id="icon-menu" >
                 <img src="images/logo.svg" alt="">
-                <a href=""><img src="images/menu.svg" alt=""></a>
+                <a href="" onclick="clicar()"><img src="images/menu.svg" alt=""></a>
             </div>
             <ul>
                 <li>
@@ -52,14 +52,20 @@
                 </li>
             </ul>
             <div class="rodape">
-                <img src="images/avatar.png" alt="">
-                <h4>Eleanor Pena</h4>
-                <p>Veterinaria</p>
+                <div class="reajuste">
+                    <img id="avatar" src="images/avatar.png" alt="">
+                    <div>
+                        <h4>Eleanor Pena</h4>
+                        <p>Veterinaria</p>
+                    </div>
+                </div>
+                <img id="sair" src="images/log-out.svg" alt="">
             </div>
         </nav>
 
         <h1>Dashboard</h1>
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

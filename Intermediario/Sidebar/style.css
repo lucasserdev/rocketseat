@@ -28,7 +28,10 @@ main {
 }
 
 h1 {
-    padding-top: 18px;
+    margin-left: 270px;
+    padding-top: 17px;
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 nav.menu {
@@ -39,12 +42,12 @@ nav.menu {
     position: fixed;
 }
 
-div.icon-menu {
+div#icon-menu {
     margin-top: 26.12px;
     margin-left: 24px;
 }
 
-div.icon-menu a {
+div#icon-menu a {
     margin-left: 119px;
 }
 
@@ -56,6 +59,7 @@ ul {
 
 ul li {
     list-style-type: none;
+    display: flex;
 }
 
 ul li a {
@@ -84,7 +88,7 @@ ul li a:hover {
     color: var(--text-color);
     font-size: 15px;
     font-weight: 400;
-    
+    display: block;
 }
 
 .rodape {
@@ -92,21 +96,33 @@ ul li a:hover {
     height: 60px;
     background-color: var(--light-green);
     display: flex;
+    align-items: center;
+
+    margin-top: 285px;
 }
 
-.rodape > img {
-    width: 70px;
-    padding-top: 8px;   
-    padding-left: 13px; 
-    padding-bottom: 7px;
-    border-radius: 12px;
+.reajuste {
+    display: flex;
 }
 
-.rodape h1 {
+.reajuste img#avatar {
+    width: 45px;
+    height: 45px;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.reajuste h4 {
     font-size: 15px;
-    height: 15px;
+    font-weight: normal;
 }
 
-.rodape p {
+.reajuste p {
     font-size: 12px;
+    font-weight: 400;
+}
+
+.rodape img#sair {
+   width: 24px;
+   margin-left: 45px;
 }
